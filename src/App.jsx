@@ -22,7 +22,7 @@ function App() {
   // Fetch new colors from the Colormind API
   const fetchColors = async () => {
     try {
-      const response = await fetch('http://colormind.io/api/', {
+      const response = await fetch('https://colormind.io/api/', {
         method: 'POST',
         body: JSON.stringify({ model: 'default' }),
       });
