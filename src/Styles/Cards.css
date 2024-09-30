@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+  gap: 20px;
+}
+.color-card {
+    height: 250px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-end; 
+    position: relative;
+    border-radius: 8px;
+    align-items: center; 
+    background-color: white;
+  }
+  
+  .color {
+    position: absolute;
+    cursor: pointer;
+    height:82%;
+    width: 95%;
+    background-color: #ECA400;
+    border-radius: 8px;
+    margin-bottom: 33px; 
+  }
+  
+  .hex-code {
+    font-size: 20px;
+    position: absolute;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 600;
+    
+  }
+  .lock-button{
+    position: relative;
+    cursor: pointer;
+    left: 42%;
+    top: -90%;
+  }
+  

@@ -1,0 +1,28 @@
+body{
+    background-color: #dfefec;
+    font-family: Robot;
+}
+.hero{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.generate{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.btn{
+    text-align: center;
+}
